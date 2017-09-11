@@ -2,7 +2,7 @@ import tkinter
 from time import strftime
 
 def tic():
-    rel['text'] = strftime('%H:%M:%S') #Formato em data padrão
+    rel['text'] = strftime('%H:%M:%S') #Formato padrão da hora
 
 def tac():
     tic()
